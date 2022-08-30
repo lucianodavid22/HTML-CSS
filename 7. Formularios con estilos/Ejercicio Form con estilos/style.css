@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: #161717;
+    /* color: white; */
+}
+
+.container {
+    margin: auto;
+    width: 550px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 53px;
+}
+
+.Google-btn {
+    display: flex;
+    flex-direction: row;
+    background-color: #1a73e8;
+    padding: 7px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.Google-btn picture {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Google-btn span {
+    color: white;
+    font-weight: 400;
+}
+
+.Google-btn:hover {
+    background-color: #4888dc;
+}
+
+.Github-btn {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    padding: 7px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.Github-btn picture {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Github-btn span {
+    color: white;
+    font-weight: 400;
+}
+.Github-btn:hover {
+    background-color: #2c2c2c;
+}
+
+.section-o {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+}
+
+.section-o hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputs-div {
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 0;
+    padding: 10px 20px;
+}
+
+label span {
+    font-weight: 700;
+    width: 100%;
+}
+
+label input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #212121;
+    color: white;
+}
+
+label input:hover {
+    background-color: #454045;
+}
+label input:focus {
+    background-color: #454045;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox span {
+    font-weight: 300;
+    width: 400px;
+}
+
+.checkbox input {
+    width: 50px;
+}
+
+.submit-btn {
+    padding: 12px 35px;
+    border: none;
+    border: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15pt;
+    outline: none;
+    background-color: #ea4c89;
+    color: black;
+    cursor: pointer;
+}
+
