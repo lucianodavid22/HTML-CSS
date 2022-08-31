@@ -1,0 +1,44 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    animation: traslacion 1s ease-in-out infinite forwards alternate;
+}
+
+.padre:hover .hijo{
+    animation-play-state: paused;
+    
+}
+/* 100 son las veces que va a hacer la animacion, tambien se puede poner infinite */
+/* forwards: hace que se quede en el 100 */
+/* alternate: va del 0 al 100 y del 100 al 0 */
+
+
+@keyframes traslacion {
+    0%{
+        background-color: red;
+        transform: translateX(0%);
+    }
+    25% {
+        background-color: orange;
+        transform: translateX(100%);
+    }
+    50%{
+        background-color: yellow;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: yellow;
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        background-color: yellow;
+        transform: translateX(0%) translateY(0%);
+    }
+}
