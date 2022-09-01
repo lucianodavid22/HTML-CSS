@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style: none;
+    background-color: bisque;
+    height: 100vh;
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .navbar {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        height: fit-content;
+    }
+}
